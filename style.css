@@ -7,3 +7,82 @@
 {
     color: chocolate;
 }
+.font-face
+{
+    color: brown;
+    font-size: large;
+    font-family: sans-serif;
+}
+.font-weight-thin
+{
+    font-weight: 100;
+}
+.font-weight-bold
+{
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.eot');
+    src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.eot?iefix') format('eot'),
+    url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.woff') format('woff'),
+    url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.ttf') format('truetype'),
+    url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.svg#webfont6hibqX7I') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+p {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #999;
+}
+
+a:link, a:visited {
+    color: #ccc;
+    text-decoration: none;
+
+}
+
+a:hover, a:active {
+    color: #0080ff;
+}
+
+/* text-shadow styles */
+
+
+.div1 {
+    width: 998px;	border: 1px solid #424242;
+    background-image: url(http://www.midwinter-dg.com/blog_demos/css-text-shadows/images/clouds.jpg);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.head1 {
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);	color: rgba(255,255,255,0);
+    font: 80px 'ChunkFiveRegular';
+}
+
+.div2
+{
+    width: 998px;	margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #424242;
+    background: black url(http://www.midwinter-dg.com/blog_demos/css-text-shadows/images/neon.jpg) 0;
+    margin-bottom: 10px;
+}
+
+.head2
+{
+    text-align: center;
+    color: #fff;	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+    letter-spacing: 5px;
+    font: 80px 'MisoRegular';
+}
