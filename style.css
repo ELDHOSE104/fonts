@@ -86,3 +86,15 @@ a:hover, a:active {
     letter-spacing: 5px;
     font: 80px 'MisoRegular';
 }
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
