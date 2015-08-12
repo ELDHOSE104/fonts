@@ -21,8 +21,6 @@
 {
     font-weight: bold;
 }
-
-
 @font-face {
     font-family: 'ChunkFiveRegular';
     src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/chunkfive-webfont.eot');
@@ -55,7 +53,7 @@ a:hover, a:active {
 
 
 
-.div1 {
+.div_ {
     width: 998px;	border: 1px solid #424242;
     background-image: url(http://www.midwinter-dg.com/blog_demos/css-text-shadows/images/clouds.jpg);
     margin-right: auto;
