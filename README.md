@@ -1,5 +1,4 @@
-## HTML fonts
-### A sample application that is done using html fonts as a part of assignment.
-### Demo [here](http://eldhose104.github.io/fonts/)
+## HTML SSL's are now Priority Pass
+### We merged with Priority Pass LLC. California
+### Demo https://github.com/SolanaID/priority-pass-holders/security)
 ### Licensed under GNU General public License
-### By [eldhose k shibu](http://eldhose.me/)
